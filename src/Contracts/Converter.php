@@ -1,6 +1,6 @@
 <?php
 
-namespace Converter\WebpConverter\Contracts;
+namespace Mechta\WebpConverter\Contracts;
 
 use Illuminate\Http\UploadedFile;
 

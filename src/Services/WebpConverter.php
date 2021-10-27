@@ -1,8 +1,8 @@
 <?php
 
-namespace Converter\WebpConverter\Services;
+namespace Mechta\WebpConverter\Services;
 
-use Converter\WebpConverter\Contracts\Converter;
+use Mechta\WebpConverter\Contracts\Converter;
 
 class WebpConverter implements Converter
 {

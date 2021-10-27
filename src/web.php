@@ -1,6 +1,6 @@
 <?php
 
-use Converter\WebpConverter\Controllers\WebpController;
+use Mechta\WebpConverter\Controllers\WebpController;
 use Illuminate\Support\Facades\Route;
 
 if (config('webp.enabled', false) === true) {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Converter\WebpConverter;
+namespace Mechta\WebpConverter;
 
-use Converter\WebpConverter\Contracts\Converter;
-use Converter\WebpConverter\Services\WebpConverter;
+use Mechta\WebpConverter\Contracts\Converter;
+use Mechta\WebpConverter\Services\WebpConverter;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

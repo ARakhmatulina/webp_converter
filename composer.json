@@ -1,10 +1,10 @@
 {
-    "name": "converter/webp_converter",
+    "name": "mechta/webp_converter",
     "description": "converts images to webp format",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Converter\\WebpConverter\\": "src/"
+            "Mechta\\WebpConverter\\": "src/"
         }
     },
     "require": {
@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Converter\\WebpConverter\\ServiceProvider"
+                "Mechta\\WebpConverter\\ServiceProvider"
             ]
         }
     }

@@ -1,8 +1,8 @@
 <?php
 
-namespace Converter\WebpConverter\Controllers;
+namespace Mechta\WebpConverter\Controllers;
 
-use Converter\WebpConverter\Services\WebpConverter;
+use Mechta\WebpConverter\Services\WebpConverter;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
