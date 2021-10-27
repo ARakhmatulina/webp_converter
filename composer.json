@@ -1,0 +1,22 @@
+{
+    "name": "converter/webp_converter",
+    "description": "converts images to webp format",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Converter\\WebpConverter\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "^8.40",
+        "illuminate/routing": "^8.40",
+        "illuminate/http": "^8.40"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Converter\\WebpConverter\\ServiceProvider"
+            ]
+        }
+    }
+}
